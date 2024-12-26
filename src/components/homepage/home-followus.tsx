@@ -20,11 +20,11 @@ const HomeFollowUs = () => {
             ติดตามเรา
           </h3>
           <Image
-            width={96}
-            height={96}
+            width={100}
+            height={38}
             src="/images/logo.png"
             alt="Logo COcogu"
-            className="mx-3"
+            className="my-6 lg: mx-3 max-w-full w-24"
           />
 
           {/* Social Media */}

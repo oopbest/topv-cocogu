@@ -26,14 +26,15 @@ const Header = () => {
     >
       <section className="flex px-4 py-2 lg:py-0 mx-auto container items-center justify-between">
         {/* Logo */}
-        <div className="lg:order-first lg:basis-1/12 lg:p-0">
+        <div className="lg:order-first lg:basis-1/12 lg:my-3">
           <Link href="/" title="">
             <Image
-              width={66}
-              height={66}
+              width={100}
+              height={38}
               src="/images/logo.png"
               alt="Cocogu Website Logo"
               priority={false}
+              className="lg: w-10/12"
             />
           </Link>
         </div>
@@ -50,7 +51,7 @@ const Header = () => {
           >
             <div className="-mt-0.5 h-0.5 w-6 bg-theme-color transition-all duration-500 before:absolute before:h-0.5 before:w-6 before:-translate-x-3 before:-translate-y-2 before:bg-theme-color before:transition-all before:duration-500 before:content-[''] after:absolute after:h-0.5 after:w-6 after:-translate-x-3 after:translate-y-2 after:bg-theme-color after:transition-all after:duration-500 after:content-['']"></div>
           </button>
-          <div className="hidden text-theme-color lg:flex space-x-16">
+          <div className="hidden text-theme-color lg:flex justify-evenly">
             <MainMenu />
           </div>
         </div>
