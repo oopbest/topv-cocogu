@@ -16,7 +16,7 @@ export default function Home() {
 
         {/* Product Cocogu */}
         <div className="flex flex-col sm:flex-row items-center mt-10 bg-theme-color rounded-3xl">
-          <div className="flex-1 flex-col p-10">
+          <div className="sm:flex-1  lg:flex-1 flex-col p-10">
             <h3 className="text-2xl py-4">
               COCOGU Induction Cooker เตาแม่เหล็กไฟฟ้า 1500 วัตต์ รุ่น IC-3 -
               รับประกัน 3 ปี
@@ -45,7 +45,7 @@ export default function Home() {
               </span>
             </button>
           </div>
-          <div className="flex-1 lg:flex-none">
+          <div className="sm:flex-1 shrink-0 lg:shrink">
             <Image
               width={750}
               height={281}
